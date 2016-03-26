@@ -1,6 +1,9 @@
 package main
 
-import "learn/tasks"
+// import "learn/tasks"
+import (
+	"github.com/harshmaur/learn-go/tasks"
+)
 
 func main() {
 	// tasks.Hello()
@@ -38,6 +41,9 @@ func main() {
 
 	// tasks.MakePersonWalk()
 	// tasks.ChangePersonName()
-	x := []int{1, 2, 3, 4, -5, 6, 7}
-	tasks.Zerosum(x)
+	// x := []int{1, 2, 3, 4, -5, 6, 7}
+	// tasks.Zerosum(x)
+	// tasks.Print42()
+	// tasks.Print42Binary()
+	tasks.Print42Formats()
 }
