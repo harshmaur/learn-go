@@ -1,9 +1,12 @@
 package main
 
 // import "learn/tasks"
-import (
-	"github.com/harshmaur/learn-go/tasks"
-)
+import "github.com/harshmaur/learn-go/tasks"
+
+// const (
+// 	p = "Hello"
+// 	metersToYards = 1.09361
+// )
 
 func main() {
 	// tasks.Hello()
@@ -45,5 +48,14 @@ func main() {
 	// tasks.Zerosum(x)
 	// tasks.Print42()
 	// tasks.Print42Binary()
-	tasks.Print42Formats()
+	// const (
+	// 	q = 42
+	// )
+
+	// fmt.Println("p = ", p)
+	// fmt.Println("q = ", q)
+	// tasks.Print42Formats()
+	// tasks.BitWiseShifting()
+	// tasks.MemoryAddress()
+	tasks.PointersHelp()
 }
