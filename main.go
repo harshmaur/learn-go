@@ -1,6 +1,7 @@
 package main
 
 // import "learn/tasks"
+
 import "github.com/harshmaur/learn-go/tasks"
 
 // const (
@@ -57,5 +58,50 @@ func main() {
 	// tasks.Print42Formats()
 	// tasks.BitWiseShifting()
 	// tasks.MemoryAddress()
-	tasks.PointersHelp()
+	// tasks.PointersHelp()
+	// tasks.NewForLoop()
+	// tasks.NestedForLoop()
+	// tasks.Runes()
+	// tasks.HelloWorld()
+	// tasks.SmallLarge()
+	// tasks.PrintEven()
+	// tasks.FizzBuzz()
+	// tasks.SumDivisible()
+
+	// fmt.Println(tasks.VariadicAverage(10, 15, 20, 25, 30))
+	// data := []float64{10, 15, 20, 25, 30}
+	// fmt.Println(tasks.VariadicAverage(data...))
+
+	// tasks.Closure1()
+	// tasks.Call1()
+	// fmt.Println(tasks.RecursionFactorial(4))
+	// tasks.Slice1()
+
+	// fmt.Println(tasks.EvenDivideTwo(2))
+	// tasks.EvenDivideTwoExp()
+	// fmt.Println(tasks.GreatestNumber(5, 19, 10, 13))
+
+	// a := []int{}
+	// var b []int
+	// c := make([]int, 1, 1)
+	// d := make([]int, 0, 0)
+	// e := new([]int)
+	// if e == nil {
+	// 	fmt.Println(d)
+	// }
+	// fmt.Println(a, b, c, d, e)
+	// tasks.MultiDSlice()
+
+	// a := 'a'
+	// b := int(a)
+	// fmt.Println(b)
+	// tasks.Ascii()
+	// tasks.JSONMarshal()
+	// tasks.JSONUnmarshal()
+
+	// tasks.RunShape()
+	// tasks.SortPeople()
+	tasks.SortPeopleReverse()
+	// tasks.SortStringSlice()
+	// tasks.SortIntSlice()
 }
